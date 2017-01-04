@@ -1,0 +1,101 @@
+html {
+	position:relative;
+	min-height:100%;
+}
+body {
+	
+	padding-top: 65px;
+	margin-bottom:125px;
+	font-family: 'Brawler', serif;
+	font-size:16px;
+	background-color: #abbaab;
+	background-image:
+	linear-gradient(
+		to right,
+		#ffffff, #48b2bd);
+}
+
+body header { 
+padding: 20px;
+
+}
+
+header nav {
+	display:flex;
+	justify-content: flex-end;
+}
+
+header h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight:700;
+	margin:0;
+}
+
+header p {
+	padding: 0 20px;
+	margin:0;
+	
+}
+header a {
+	color:black;
+}
+
+header a:hover {
+	text-decoration: none;
+	
+}
+
+header a:visited {
+	color:;
+}
+
+.jumbotron {
+	display:flex;
+	align-items: center;
+	background-image: url('../img/tiedyehoop.JPG');
+	height: 300px;
+	width:100%;
+	background-size: 100%;
+}
+
+.jumbotron h1 {
+	color: white;
+	font-weight: bold;
+	text-shadow: 0.25px 0.25px 0.25px #000000;
+	
+}
+
+.jumbotron h2 {
+	color: white;
+	font-weight: bold;
+}
+
+
+section .row img {
+	
+	width: 100%;
+	
+}
+
+.catalog img {
+
+	padding:20px;
+
+}
+
+
+.catalog button {
+	width:100%;
+	display:block;
+}
+
+.navbar-fixed-bottom {
+	display:flex;
+	justify-content: flex-end;
+}
+
+.navbar-text > a {
+	color:inherit;
+	text-decoration: none;
+	padding:0px;
+}
